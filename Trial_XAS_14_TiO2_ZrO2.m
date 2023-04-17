@@ -1,8 +1,8 @@
 % XAS Spectral Processing from the TIFF Image Sequence (Author: Shashi Kadam, 2023_03_21)
 
 % Define path to the TIFF images and the txt file
-path_to_images = 'C:\Users\shashik\Documents\MATLAB\XAS Spectral Processing\scpy_TiO2_correction_11_04_2023\650C-Mix\20221105_17055_ImageOTF';
-path_to_txt_file = 'C:\Users\shashik\Documents\MATLAB\XAS Spectral Processing\scpy_TiO2_correction_11_04_2023\650C-Mix\20221105_17055_ImageOTF\scan 1.txt';
+path_to_images = 'path_to_image_sequences(TIFF)';
+path_to_txt_file = 'path_to_energy+text_files\scan 1.txt';
 
 % Load the txt file data and extract the energy values
 data = dlmread(path_to_txt_file, ';');
