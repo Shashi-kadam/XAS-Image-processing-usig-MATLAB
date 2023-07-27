@@ -1,4 +1,4 @@
-% XAS Spectral Processing from the TIFF Image Sequence (Author: Shashi Kadam, 2023_03_21)
+% XA Spectral Processing from the TIFF Image Sequence (Author: Shashi Kadam, 2023_03_21)
 
 % Define path to the TIFF images and the txt file
 path_to_images = 'path_to_image_sequences(TIFF)';
